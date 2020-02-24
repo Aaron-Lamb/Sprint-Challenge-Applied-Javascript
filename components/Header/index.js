@@ -30,6 +30,6 @@ function Header() {
     return headerDiv;
 }
 
-let headContainer = document.querySelector('header-container');
+let headContainer = document.querySelector('.header-container');
 
 headContainer.appendChild(headerDiv);
