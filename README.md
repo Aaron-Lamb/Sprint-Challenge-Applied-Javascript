@@ -29,14 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+The DOM is a branch system that allows programming languages to communicate with one another, automatically translating, and manipulating different elements.
 
 2. What is an event?
+An event is pretty self-explanatory. It is a one time occurence that will trigger a response from the element.
 
 3. What is an event listener?
+It is essentially a trigger to a trap, that is waiting for the set circumstances to occure, to initiate the event.
 
 4. Why would we convert a NodeList into an Array?
+It allows us to sift through and sort a set of items, and select specific items out of the array.
 
 5. What is a component?
+A reusable set of javascript settings used to create duplicated containers, with different content.
 
 ### Git Set up
 
