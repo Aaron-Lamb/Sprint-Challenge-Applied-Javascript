@@ -20,12 +20,7 @@
 
 let cardContainer = document.querySelector('.card-container');
 
-    axios.get('https://lambda-times-backend.herokuapp.com/articles')
-    .then(response => {
-        response.data.forEach(element => {
-            cardContainer.appendChild(cardComp(element)); 
-        });
-    });
+    
 
         const cardComp = (articles) => {
         let cardClass = document.createElement('div');
