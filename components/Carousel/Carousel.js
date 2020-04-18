@@ -6,14 +6,23 @@
     5. Think of how you would animate this component. Make the cards slide in and out, or fade. It's up to you!
     6. Have fun!
 */
-
-/* HTML:
-  <div class="carousel">
-    <div class="left-button"> < </div>
-    <img src="./assets/carousel/mountains.jpeg" />
-    <img src="./assets/carousel/computer.jpeg" />
-    <img src="./assets/carousel/trees.jpeg" />
-    <img src="./assets/carousel/turntable.jpeg" />
-    <div class="right-button"> > </div>
-  </div>
-*/
+const carouselHolder = document.querySelector('.carousel-container');
+console.log(carouselHolder);
+//  HTML:
+//   <div class="carousel">
+let carouselDiv = document.createElement('div');
+carouselDiv.classList.add('carousel');
+//     <div class="left-button"> < </div>
+let leftButtonDiv = document.createElement('div');
+leftButtonDiv.classList.add('left-button');
+carouselDiv.appendChild(leftButtonDiv);
+//     <img src="./assets/carousel/mountains.jpeg" />
+let mountainImg = document.createElement('img');
+mountainImg.src = '../assets/carousel/mountains.jpeg';
+//     <img src="./assets/carousel/computer.jpeg" />
+//     <img src="./assets/carousel/trees.jpeg" />
+//     <img src="./assets/carousel/turntable.jpeg" />
+//     <div class="right-button"> > </div>
+//   </div>
+// 
+carouselHolder.appendChild(carouselDiv);
